@@ -1,0 +1,6 @@
+In Python you can:
+- Make a class
+- Make an object with that class
+- Create lists of items
+- nest lists and dictionaries
+- get user input and pass that into a class
