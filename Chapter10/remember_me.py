@@ -4,7 +4,6 @@ import json
 # Otherwise, prompt user for the username and store it.
 filename = 'username.json'
 
-
 def greet_user():
     """Greet the user by name"""
     try:
