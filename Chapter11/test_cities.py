@@ -9,4 +9,8 @@ class CityCountryTestCase(unittest.TestCase):
         formatted_name = get_city_country('lagos', 'nigeria')
         self.assertEqual(formatted_name, 'Lagos, Nigeria')
 
+    def test_city_country_population(self):
+        """Tests if inputing a population will work"""
+        formatted_Name = get_city_country('lagos', 'nigeria', 30000000)
+
 unittest.main()
