@@ -1,4 +1,4 @@
-def get_city_country(city, country, population=''):
+def get_city_country(city, country, population=0):
     """Print's city and country in a nice lil format"""
     if population:
         city_country = city + ", " + country + ". Population: " + str(population)
