@@ -8,14 +8,14 @@ class AnonymousSurvey():
     
     def show_question(self):
         """Show the question survey"""
-        print(question)
+        print(self.question)
 
     def store_respones(self, new_response):
         """Store a single response in the list"""
-        self.response.append(new_response)
+        self.responses.append(new_response)
 
     def show_results(self):
         """Prints the results in the list"""
         print("Survey results: ")
-        for response in responses:
-            print("- " + response)
+        for response in self.responses:
+            print("- " + response.title())
