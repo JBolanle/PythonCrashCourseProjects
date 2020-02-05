@@ -10,4 +10,3 @@ class Employee():
     def give_raise(self, salary_raise = 5000):
         new_salary = self.annual_salary + salary_raise
         self.annual_salary = new_salary
-
